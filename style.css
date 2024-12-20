@@ -1,0 +1,488 @@
+.head{
+    background: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg)center/cover;
+    background-attachment:fixed;
+}
+
+.menu{
+    height: 80px;
+    background-color: white; 
+    display: flex;
+    color: rgb(130, 130, 130);
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+}
+
+
+.menu h2{
+    font: 300 24px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    font: 530 13px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    width: 580px;
+}
+
+
+nav a{
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    transition: .3s;
+    padding: 20px 0;
+}
+
+nav li a i{
+    font-size: 10px;
+    color: rgb(130, 130, 130);
+    margin-left: 5px;
+    transition: .3s;
+}
+
+nav a:hover{
+    color: #3a52bf;
+}
+
+nav ul i{
+    color: #3a52bf;
+    margin-left: 10px;
+}
+
+
+.dropdown, .dropdown2{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width: 180px;
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+.dropdown-content i{
+    margin-left: 80px;
+}
+
+.dropdown-content li {
+    padding: 7px 20px ;
+}
+
+.dropdown-content a{
+    padding: 0;
+    color: #8c979e;
+    text-transform: capitalize;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content2{
+    position: absolute;
+    left: 100%;
+    display: none;
+    background-color: white;
+    z-index: 1;
+    width: 180px;
+    margin-top: 15px;
+    top: -16px;
+    border: 1px solid gray
+}
+
+.dropdown2:hover .dropdown-content2{
+    display: block;
+}
+
+.dropdown-content li:hover {
+    background-color: #f1f1f1;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.head .content{
+    height: 90vh;
+}
+
+.content h1{
+    font: 400 60px 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.content p{
+    font: 300 14px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.read, .download{
+    border-radius: 1px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font: 700 12px arial;
+    transition: .3s;
+}
+
+.read{
+    background-color: rgb(116, 92, 250);
+    border: 2px solid #745cf9;
+    margin-right: 5px;
+    padding: 18px 66px;
+}
+
+.read:hover{
+    background-color: #5d47d7;
+}
+
+.download{
+    background-color: transparent;
+    border:2px solid white;
+    margin-left: 5px;
+    padding: 18px 48px ;
+}
+
+.download:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.container{
+    width: 78%;
+    margin: 0 auto;
+}
+
+.seo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.seo img {
+    width: 50%;
+}
+.seo .text{
+    width: 40% ;
+}
+
+.text h2{
+    font: 400 30px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font: 400 15px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    color: rgb(140, 153, 161);
+    width: 360px;
+    margin-bottom: 50px;
+}
+
+
+.portfolio-color{
+    background-color: rgb(245, 245, 245);
+    padding-block: 40px;
+}
+
+.content-background{
+    background: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg)center/cover;
+    background-attachment:fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.options{
+    height: 100%;
+    display: flex;
+    align-items: end;
+    background-color: rgb(245, 245, 245);
+    padding-top: 90px;
+}
+
+.options .content{
+    margin-bottom: 50px;
+}
+
+.content h3{
+    font: 400 30px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.options .content p{
+    color: rgb(149, 160, 166);
+    width: 75%;
+}
+
+.options img{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.projects{
+    background-color: rgb(14, 16, 20);
+    padding-top: 80px;
+    height: 100%;
+}
+
+.projects-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.projects-text h2{
+    font: 400 30px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.projects-text p{
+    font: 400 14px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+}
+
+.pictures img{
+    width: 379px;
+    height: 100%;
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+.image:hover  img{
+    opacity: 0.5;
+}
+
+.image{
+    position: relative;
+}
+
+.image:hover .title{
+    display: block;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    display: none;
+    top: 50%;
+    font: 600 22px arial;
+    color: white;
+}
+
+
+
+.reviews{
+    height: 470px;
+    background: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg)center/cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews p{
+    width: 60%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.reviews img{
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.say{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.say h5{
+    font: 700 14px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+
+.clients{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+
+.clients h2{
+    font: 400 30px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons img{
+    width: 60px;
+    opacity: 0.5;
+    transition: .3s;
+}
+
+
+.icons img:hover{
+    opacity: 1;
+}
+
+.question{
+    background-color: rgb(245, 245, 245);
+}
+
+.like{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 245px;
+}
+
+.question h1{
+    font: 400 30px Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer{
+    background-color: rgb(14, 16, 20);
+}
+
+.end{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+}
+
+.end p{
+    font: 600 14px  Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.network{
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+}
+
+.end a{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.end a:hover{
+    color:  rgb(82, 52, 249);
+}
+
+
+
+
+.menu .fa-bars {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .menu_hamburger {
+display: none;
+    }
+    .menu .fa-bars {
+display: block;
+    }
+
+    .menu {
+justify-content: space-between;
+padding-inline: 30px;
+    }
+    .content h1 {
+font-size: 2em;
+    }
+    .read {
+padding: 18px 32px;
+    }
+    .download {
+padding: 18px 28px;
+    }
+    .like{
+        flex-direction: column;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+    .seo {
+    flex-direction: column;
+    
+        }
+    .seo .text, .seo img{
+        width: 100%;
+        margin-block: 10px;
+    }
+    
+    .options{
+        height: 100%;
+    }
+    .projects{
+        height: 100%;
+    }
+    .reviews{
+        height: 100%;
+    }
+    
+    .question h1{
+        width: 100%;
+    }
+    
+
+}
+@media only screen and (max-width: 540px) {
+    .end{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
